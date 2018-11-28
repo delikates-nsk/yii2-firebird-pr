@@ -473,7 +473,7 @@ class Schema extends BaseSchema implements ConstraintFinderInterface
      */
     protected function createColumnSchema()
     {
-        return \Yii::createObject('\edgardmessias\db\firebird\ColumnSchema');
+        return \Yii::createObject('\delikatesnsk\db\firebird\ColumnSchema');
     }
 
     /**

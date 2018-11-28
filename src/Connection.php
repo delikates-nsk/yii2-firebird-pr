@@ -47,18 +47,18 @@ class Connection extends \yii\db\Connection
      * @inheritdoc
      */
     public $schemaMap = [
-        'firebird' => 'edgardmessias\db\firebird\Schema', // Firebird
+        'firebird' => 'delikatesnsk\db\firebird\Schema', // Firebird
     ];
 
     /**
      * @inheritdoc
      */
-    public $pdoClass = 'edgardmessias\db\firebird\PdoAdapter';
+    public $pdoClass = 'delikatesnsk\db\firebird\PdoAdapter';
 
     /**
      * @inheritdoc
      */
-    public $commandClass = 'edgardmessias\db\firebird\Command';
+    public $commandClass = 'delikatesnsk\db\firebird\Command';
     /**
      * @var Transaction the currently active transaction
      */
