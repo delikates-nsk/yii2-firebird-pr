@@ -1,0 +1,28 @@
+{
+    "name": "delikates-nsk/yii2-firebird-pr",
+    "description": "Firebird connector (based on edgardmessias/yii2-firebird) for Yii2 framework with selective procedures support",
+    "keywords": ["yii2", "firebird", "active-record", "procedures"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/delikates-nsk/yii2-firebird-pr"
+    },
+    "authors": [
+        {
+            "name": "Constantin G. Nekhoroshkov",
+            "email": "delikates.nsk@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0.15.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-dev": "~2.0.15.0",
+        "yiisoft/yii2-coding-standards": "^2.0.2",
+    },
+    "autoload": {
+        "psr-4": {
+            "delikatesnsk\\db\\firebird\\": "src"
+        }
+    },
+}
